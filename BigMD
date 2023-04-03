@@ -1,0 +1,24 @@
+Stored in Kunlun (ask: Xiaodong, Liang Xiao, JiaCheng Ding)
+
+download from: https://www.cosmosim.org/metadata/bigmdpl/
+path:  /home/xiaodongli/data/BigMDPL 
+
+csvs/BigMDPL_mge1e13.csv:  halo/subhalo at all snapshots with M>1e13 MSolar
+
+lightcone/: a lightcone mock for SDSS BOSS DR12, see https://arxiv.org/abs/1607.03155
+
+z0/: snapshot halo/subhalo at z=0
+
+snaps/: all snapshot halo/subhalo
+  Redshifts.csv : redshift - SnapId relation
+  1.csv, 2.csv, ..., 79.csv: catalogue
+  *.shiftx, *.shifty, *.shiftz: RSD added along x/y/z axies
+  nbar1e-3/: nbar=1e-3, by applying a mass threshold
+    examples of some 2pcf files:
+      79_nbar1e-3.shiftr.om0.3071_w-1.0000.radeczw.150s0to150.120mu.2pcf:
+        2pcf measured at snapid=79, RSD added along r direction
+      79_nbar1e-3.shiftz.numNB30.margin30.00.boxsize2500.00.zplus1000000000.weipow0.3.150s0to150.120mu.2pcf
+        mark weighted 2pcf measured at snapid=79, RSD added along z direction, weighted by rho^0.3, rho estimated using 30 neighbors
+        
+       
+  
