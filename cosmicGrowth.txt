@@ -4,9 +4,37 @@
     Cosmology: 
       (WMAP LambdaCMD) 
         Omb=0.0445, Omc=0.2235, OmL=0.7320, h=0.71, ns=0.968, sigma8=0.83
+    halo_snap_path:
+        # path on kunlun
+        snap_path = '/home/xiaodongli/data/work/work/luoxl/cosmicGrowth/8411/'
+        # path on BSCC_cpu
+        snap_path = '/public1/home/scb4289/Data/cosmicGrowth/8411/'
+        # path on BSCC_gpu
+        snap_path = '/data/home/scv4765/run/WaveletST/data/cosmicGrowth/8411/'
     halo_snap_files: 
-        'halo.h5.008' (z~1.17) 
-        'halo.h5.014' (z~0.59)
-   (details shown in README_cosmicGrowth-8411.ipynb)
+        'halo.h5.008' (a=0.460822, z=1.17004) 
+        'halo.h5.014' (a=0.628493, z=0.59111)
+        
+   (Details shown in README_cosmicGrowth-8411.ipynb)
+  
+ (2) 6610 
+     Boxsize: 600 Mpc/h
+     Npar:    3072^3
+     Cosmology: 
+        (WMAP LambdaCMD) 
+          Omb=0.0445, Omc=0.2235, OmL=0.7320, h=0.71, ns=0.968, sigma8=0.83
+     halo_snap_path:
+        # path on kunlun (include 4 snapshots)
+        snap_path = '/home/xiaodongli/data/work/work/luoxl/cosmicGrowth/6610/'
+        # path on BSCC_cpu (include 1 snapshot: 099)
+        snap_path = '/public1/home/scb4289/Data/cosmicGrowth/6610/'
+        # path on BSCC_gpu (only include the CIC field of snap_099)
+        snap_path = '/data/home/scv4765/run/WaveletST/data/cosmicGrowth/6610/'
+     halo_snap_files:
+        'halo.h5.067' (a=0.404138, z=1.47440) 
+        'halo.h5.072' (a=0.465710, z=1.14726) 
+        'halo.h5.087' (a=0.712596, z=0.71260) 
+        'halo.h5.099' (a=1.000000, z=0.00000) 
+    (The method of reading 6610 is same with 8411.)
    
    
