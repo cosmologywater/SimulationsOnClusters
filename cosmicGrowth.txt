@@ -1,0 +1,12 @@
+(1) 8411 
+    Boxsize: 1200 Mpc/h
+    Npar:    2048^3
+    Cosmology: 
+      (WMAP LambdaCMD) 
+        Omb=0.0445, Omc=0.2235, OmL=0.7320, h=0.71, ns=0.968, sigma8=0.83
+    halo_snap_files: 
+        'halo.h5.008' (z~1.17) 
+        'halo.h5.014' (z~0.59)
+   (details shown in README_cosmicGrowth-8411.ipynb)
+   
+   
