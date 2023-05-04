@@ -37,4 +37,21 @@
         'halo.h5.099' (a=1.000000, z=0.00000) 
     (The method of reading 6610 is same with 8411.)
    
+   (3) 9001
+       Boxsize: 1200 Mpc/h
+       Npar:    2048^3
+       Cosmology: 
+       
+       halo_snap_path:
+          # path on kunlun
+          snap_path = '/home/xiaodongli/data/work/work/luoxl/cosmicGrowth/9001/9001trans/'
+       halo_snap_files:
+          'halo.h5.012' (a=0.628493, z=0.59111)
+          'halo.h5.013' (a=0.661370, z=0.51201)
+       
+       (The method of reading 9001 is same with 8411.)
+       
+       
+       
+       
    
