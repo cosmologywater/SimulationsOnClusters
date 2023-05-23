@@ -6,6 +6,7 @@ COLA simulation:
 
 
 (base cosmology: 000) (Omega_b=0.0482, ns=0.96, h=0.6777)
+(Apply the fiduical cosmology: Omega_m=0.26, w=-1.0, h=0.71)
 -------------------------------------------------------
 |       |         |      |         |    (best-fit)    |
 |sim idx| Omega_m |   w  | sigma_8 |    sigma_scat    |
