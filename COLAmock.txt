@@ -30,6 +30,8 @@ COLA simulation:
 |  304  |   0.31  | -1.0 |  0.84   |       0.48       |
 -------------------------------------------------------
 
+Stored on Kunlun cluster
+
 main_path = '/home/xiaodongli/dingjch/projects/Simulation_cosmoAI/800box_1024npar_MultiCosmo/'
 sim_path  = str(sim_idx)+'ranseed5000*/'
 mock_path = main_path+sim_path+'data_mock_sp120/'
